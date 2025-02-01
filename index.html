@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="#">My<span>Portfolio</span></a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <div class="hero">
+        <h1>Hi, I'm <span>Inshal Fatima</span></h1>
+        <p>A passionate web developer with a focus on creating responsive and user-friendly websites.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="https://i.pinimg.com/736x/5e/87/31/5e87313bb1d7cdbd58d04fff85bbdcf1.jpg" alt="Profile Image">
+        <p>I am a web developer with over 3 years of experience in building modern and responsive websites. I specialize in HTML, CSS, JavaScript, and React. I love turning ideas into reality through code.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <p>Proficient in writing semantic and accessible HTML.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <p>Expert in creating responsive designs with CSS and Flexbox/Grid.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Skilled in building interactive web applications with JavaScript.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+          <p>Experienced in developing dynamic UIs with React.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>A responsive landing page built with HTML and CSS.</p>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>An interactive to-do app built with JavaScript.</p>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/300" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>A React-based e-commerce website.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 John Doe. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
